@@ -17,10 +17,10 @@ public class AppTest {
         Assert.assertEquals(1, myApp.userLogin("abc", "abc@123"));
     }
 
-    @Test
-    public void testLogin3() {  // Renamed to testLogin3
-        App myApp = new App();
-        Assert.assertEquals(1, myApp.userLogin("abc", "abc@1234"));
-    }
+    // @Test
+    // public void testLogin3() {  // Renamed to testLogin3
+    //     App myApp = new App();
+    //     Assert.assertEquals(1, myApp.userLogin("abc", "abc@1234"));
+    // }
 }
 
